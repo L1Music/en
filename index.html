@@ -21,9 +21,9 @@
         
         .dropdown-content {
         display: none;
-        position: absolute;
-        background-color: #3b3a39;
-        min-width: 160px;
+        position: relative;
+        background-color: #292827;
+        min-width: 150px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         }
@@ -37,7 +37,7 @@
         }
 
         
-        .dropdown-content a:hover {background-color: #292827}
+        .dropdown-content a:hover {background-color: #3b3a39}
 
         
         .dropdown:hover .dropdown-content {
@@ -50,6 +50,15 @@
         }
     </style>
     <body>
+        <script>
+        server {
+        
+            location = /arc-sw.js {
+                proxy_pass https://arc.io;
+            }
+        }
+        </script>
+        <script async src="https://arc.io/widget.min.js#kgmhHXwa"></script>
         <nav>
             <ul>
                 <li><a href="merch-en.html" target="main">Merch</a></li>
@@ -67,6 +76,7 @@
                   <a href="https://l1music.github.io/zh-rg/" target="_blank">正體中文</a>
                 </div>
             </div>
+            <br></br>
             <p>Copyright 2021 by L1. All Rights Reserved.</p>
         </font>
     </body>
