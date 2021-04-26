@@ -10,10 +10,104 @@
         font-family: "Quicksand", sans-serif;
         font-size: 20px;
     }
+    .centre {
+        display: block;
+        width: 200px;
+        height: 80px;
+        margin-left: 44.5%;
+        margin-right: auto;
+    }
+    .sk-cube-grid {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sk-cube-grid .sk-cube {
+        width: 33%;
+        height: 33%;
+        background-color: #fff;
+        float: left;
+        -moz-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+        -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+        animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+    }
+    .sk-cube-grid .sk-cube1 {
+        -moz-animation-delay: 0.2s;
+        -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s; }
+    .sk-cube-grid .sk-cube2 {
+        -moz-animation-delay: 0.3s;
+        -webkit-animation-delay: 0.3s;
+                animation-delay: 0.3s; }
+    .sk-cube-grid .sk-cube3 {
+        -moz-animation-delay: 0.4s;
+        -webkit-animation-delay: 0.4s;
+                animation-delay: 0.4s; }
+    .sk-cube-grid .sk-cube4 {
+        -moz-animation-delay: 0.1s;
+        -webkit-animation-delay: 0.1s;
+                animation-delay: 0.1s; }
+    .sk-cube-grid .sk-cube5 {
+        -moz-animation-delay: 0.2s;
+        -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s; }
+    .sk-cube-grid .sk-cube6 {
+        -moz-animation-delay: 0.3s;
+        -webkit-animation-delay: 0.3s;
+                animation-delay: 0.3s; }
+    .sk-cube-grid .sk-cube7 {
+        -moz-animation-delay: 0s;
+        -webkit-animation-delay: 0s;
+                animation-delay: 0s; }
+    .sk-cube-grid .sk-cube8 {
+        -moz-animation-delay: 0.1s;
+        -webkit-animation-delay: 0.1s;
+                animation-delay: 0.1s; }
+    .sk-cube-grid .sk-cube9 {
+        -moz-animation-delay: 0.2s;
+        -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s; }
+
+    @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -moz-transform: scale3D(1, 1, 1);
+        -webkit-transform: scale3D(1, 1, 1);
+                transform: scale3D(1, 1, 1);
+    } 35% {
+        -moz-transform: scale3D(0, 0, 1);
+        -webkit-transform: scale3D(0, 0, 1);
+                transform: scale3D(0, 0, 1); 
+    }
+    }
+
+    @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+                transform: scale3D(1, 1, 1);
+    } 35% {
+        -webkit-transform: scale3D(0, 0, 1);
+                transform: scale3D(0, 0, 1);
+    } 
+    }
     </style>
     <body>
         <font color = white >
-            <p style="font-family:Quicksand">Coming Soon :)</p>
+            <div class="sk-cube-grid">
+                <div class="sk-cube sk-cube1"></div>
+                <div class="sk-cube sk-cube2"></div>
+                <div class="sk-cube sk-cube3"></div>
+                <div class="sk-cube sk-cube4"></div>
+                <div class="sk-cube sk-cube5"></div>
+                <div class="sk-cube sk-cube6"></div>
+                <div class="sk-cube sk-cube7"></div>
+                <div class="sk-cube sk-cube8"></div>
+                <div class="sk-cube sk-cube9"></div>
+            </div>
+            <p class="centre" style="font-family:Quicksand">Coming Soon :)</p>
         </font>
     </body>
 </HTML>

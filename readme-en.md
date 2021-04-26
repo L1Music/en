@@ -10,6 +10,16 @@ Alpha 5 - Background color, button added
 Beta 1.0 - Latest page added  
 Beta 1.1 - Replace the about page with Link page (use linktr.ee)  
 Beta 1.2 - Prepare to add languages  
+Beta 1.3 - Chinese Regular Language added  
+Beta 2.0 - Slideshow iframe added
+Beta 2.1 - Hide iframe button removed
+Beta 3.0 - Basic Animation  
+
+========================================================
+Powered by: 
+Microsoft Fluent Design   
+W3.CSS  
+jQuery  
 
 ## Ways to support me
 ---
