@@ -30,7 +30,7 @@ Follow my SoundCloud
 Become a Patron on Patreon  
 [Patreon](https://www.patreon.com/L1Music)  
 Visit My Website  
-[Offical Website](https://l1music.github.com/)  
+[Offical Website](https://linkline.github.com/)  
 ## My Email Address
 ---
 For any questions or collab, feel free to ask me at [collab.l1@outlook.com](mailto:collab.l1@outlook.com)
